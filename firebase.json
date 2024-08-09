@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/browser",
+    "public": "dist/domi-scan/browser",
     "ignore": [
       "firebase.json",
       "**/.*",
