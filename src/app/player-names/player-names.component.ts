@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'player-names',
+  selector: 'Player-Names',
   standalone: true,
   imports: [],
   templateUrl: './player-names.component.html',

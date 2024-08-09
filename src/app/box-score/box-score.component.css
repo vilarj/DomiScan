@@ -1,0 +1,36 @@
+.box-input-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.box-input-container input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  flex: 1 1 auto;
+  min-width: 150px;
+}
+
+.box-input-container input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.3);
+}
+
+.box-input-container input::placeholder {
+  color: #888;
+}
+
+@media (max-width: 480px) {
+  .box-input-container input {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+
+  .box-input-container {
+    gap: 5px;
+  }
+}
