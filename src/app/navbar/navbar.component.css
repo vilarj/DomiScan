@@ -1,0 +1,21 @@
+.navbar {
+  background-color: #262626;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar-title {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
